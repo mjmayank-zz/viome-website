@@ -3,9 +3,6 @@
     color: black;
     min-height: 100px;
 }
-.section.padded{
-    padding: 5rem;
-}
 @media screen and (max-width: 499px) {
     .section.padded{
         padding: 5rem 1rem;
@@ -111,6 +108,7 @@
 .footer{
     background-color: #EEEEEE;
     color: black;
+    padding: 5rem;
 }
 .footer .nav{
     padding-top: 0;

@@ -96,3 +96,17 @@ body{
     padding-left: 50px;
     padding-right: 50px;
 }
+.padded{
+    padding-top: 5vw;
+}
+.offset-left{
+    margin-left: -100px;
+}
+.offset-right{
+    margin-right: -100px;
+}
+.secure{
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #9297a3;
+}
