@@ -106,9 +106,10 @@
 
 /*FOOTER*/
 .footer{
-    background-color: #EEEEEE;
-    color: black;
+    background-color: #333743;
+    color: white;
     padding: 5rem;
+    margin-top: 5vw;
 }
 .footer .nav{
     padding-top: 0;
