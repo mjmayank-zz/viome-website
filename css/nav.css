@@ -1,0 +1,128 @@
+/*SECTION*/
+.section{
+    color: black;
+    min-height: 100px;
+}
+.section.padded{
+    padding: 5rem;
+}
+@media screen and (max-width: 499px) {
+    .section.padded{
+        padding: 5rem 1rem;
+    }
+}
+
+/*NAV BAR*/
+.nav{
+    color: white;
+    padding: 30px 5%;
+    /*position: absolute;*/
+    z-index: 99;
+}
+.nav img{
+    height: 40px;
+}
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav li {
+    font-size: 1.2em;
+    line-height: 60px;
+    height: 60px;
+    border-bottom: 1px solid #888;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    text-transform: uppercase;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    -webkit-transition: .3s color;
+    transition: .3s color;
+}
+.nav li:hover {
+    background-color: transparent;
+}
+.nav li:hover a {
+    color: white!important;
+}
+.nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+.nav .active:hover{
+    border: 1px solid white;
+}
+.nav-mobile-container {
+    background-color: #5846e2;
+}
+.nav-mobile-container img {
+    max-width: 80%;
+    height: 50px;
+}
+.nav-toggle {
+    width: 50px;
+    height: 50px;
+    float: right;
+    text-indent: -9999px;
+    overflow: hidden;
+    /*display: block;*/
+    
+    background: #5846e2 url("../images/menu.png") no-repeat 50% 33%;
+    background-size: cover;
+}
+.nav .links {
+    color: white;
+}
+.nav .links li:hover a {
+    color: white!important;
+}
+.nav li {
+    padding: 0 25px;
+    border-bottom: none;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1em;
+}
+.nav li {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+.nav .active{
+    background-color: #fff;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.nav .active a{
+    color: #2199e8;
+}
+
+/*FOOTER*/
+.footer{
+    background-color: #EEEEEE;
+    color: black;
+}
+.footer .nav{
+    padding-top: 0;
+}
+.footer .nav .active a{
+    color: #2B364F;
+}
+
+/*COMMON*/
+.inline-block{
+    display: inline-block;
+}
+.right{
+    text-align: right;
+}

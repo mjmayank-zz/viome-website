@@ -1,0 +1,98 @@
+body{
+	font-family: 'Lato', sans-serif;
+	color: white;
+    font-weight: 300;
+    background-image: url("../img/v-icon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.no-gutter{
+    max-width: none;
+}
+.content{
+    padding: 11vw 5vw 5vw 5vw;
+}
+.hero{
+	background-image: url('../img/hero.png');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% 100%;
+    font-family: 'Lato', sans-serif;
+}
+.headline{
+    font-family: 'Lato', serif;
+    font-weight: 500;
+    font-size: 5rem;
+    line-height: 1.05;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.sub-hero{
+    padding: 4vw;
+    font-family: 'Roboto Slab', serif;
+}
+@media screen and (min-width: 500px) {
+    .signup-box{
+        display:inline-block;
+        margin-right:10px;
+        width:40%;
+    }
+}
+@media screen and (max-width: 499px) {
+    .signup-box{
+        display:block;
+        width:100%;
+    }
+}
+.carrot img{
+    max-width: 50px;
+    margin-bottom: 50px;
+}
+.logo-overlap{
+    margin-bottom: -50px;
+    z-index: 99!important;
+}
+.img-text{
+    padding: 10vw 10vw;
+}
+.section div{
+    background-size: cover;
+    background-position: center;
+}
+.offer{
+    padding: 5vw 0;
+}
+.what-we-offer{
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    margin-left: -25px;
+    font-weight: 200;
+}
+.wellness-as{
+    padding: 50px;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+.offer-right{
+    padding: 0px 10vw;
+    font-family: 'Roboto Slab', serif;
+}
+.offer-right p{
+    line-height: 1.94;
+}
+.DARR{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.section-name{
+    font-weight: 800;
+    font-size: 2rem;
+}
+.DARR-content{
+    border-right: 1px solid #CECECE;
+    border-left: 1px solid #CECECE;
+    padding-left: 50px;
+    padding-right: 50px;
+}
