@@ -115,6 +115,8 @@ p.kicker{
     border-right: 1px solid #CECECE;
     border-left: 1px solid #CECECE;
     padding: 20px 50px;
+    font-family: "Roboto Slab", serif;
+    color: #9297a3;
 }
 .padded{
     padding-top: 5vw;
@@ -133,6 +135,7 @@ p.kicker{
 .sotu{
     color: #9297a3;
     font-family: 'Roboto Slab', serif;
+    font-size: 1.25rem;
 }
 .button{
     font-family: "Lato", sans-serif;
