@@ -1,5 +1,5 @@
 body{
-	font-family: 'Geomanist', sans-serif;
+	font-family: 'Geomanist Regular', sans-serif;
 	color: white;
     font-weight: 300;
     background-image: url("../img/v-icon.png");
@@ -103,6 +103,7 @@ p.kicker{
     text-transform: uppercase;
     font-size: 3rem;
     color: #9297a3;
+	font-family: "Geomanist Book", sans-serif;
 }
 .DARR-detail{
     padding: 5vw;
