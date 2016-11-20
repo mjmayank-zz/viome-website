@@ -1,5 +1,5 @@
 body{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Geomanist', sans-serif;
 	color: white;
     font-weight: 300;
     background-image: url("../img/v-icon.png");
@@ -18,10 +18,10 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: 50% 100%;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Geomanist', sans-serif;
 }
 .headline{
-    font-family: 'Lato', serif;
+    font-family: 'Geomanist', serif;
     font-weight: 500;
     font-size: 4rem;
     line-height: 1.05;
@@ -30,7 +30,7 @@ body{
 }
 .sub-hero{
     padding: 4vw;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Merriweather', serif;
     color: #9297a3;
 }
 @media screen and (min-width: 500px) {
@@ -58,11 +58,11 @@ body{
     padding: 10vw 10vw;
 }
 .img-text p{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Merriweather', serif;
     color: #9297a3;
 }
 p.kicker{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Merriweather', serif;
     color: #4a4a4a
 }
 .section div{
@@ -92,7 +92,7 @@ p.kicker{
 }
 .offer-right{
     padding: 0px 10vw;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Merriweather', serif;
     color: #9297a3;
 }
 .offer-right p{
@@ -115,7 +115,7 @@ p.kicker{
     border-right: 1px solid #CECECE;
     border-left: 1px solid #CECECE;
     padding: 20px 50px;
-    font-family: "Roboto Slab", serif;
+    font-family: "Merriweather", serif;
     color: #9297a3;
 }
 .padded{
@@ -134,11 +134,11 @@ p.kicker{
 }
 .sotu{
     color: #9297a3;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Merriweather', serif;
     font-size: 1.25rem;
 }
 .button{
-    font-family: "Lato", sans-serif;
+    font-family: "Geomanist", sans-serif;
     font-weight: 500;
     text-transform: uppercase;
     border-radius: 2.8px;
