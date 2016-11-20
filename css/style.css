@@ -51,8 +51,9 @@ body{
     margin-bottom: 50px;
 }
 .logo-overlap{
+		position: relative;
     margin-bottom: -50px;
-    z-index: 99!important;
+		z-index: 3;
 }
 .img-text{
     padding: 10vw 10vw;
@@ -100,7 +101,7 @@ p.kicker{
 }
 .DARR{
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #9297a3;
 }
 .DARR-detail{
