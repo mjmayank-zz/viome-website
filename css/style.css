@@ -149,4 +149,21 @@ p.kicker{
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 20px;
+	font-size: 1.5rem;
+}
+.learn-more {
+	margin-top: 45px;
+}
+.learn-more img {
+	width: 51px;
+	height: 37px;
+}
+
+/* CSS Utilities */
+.flex {
+	display: flex;
+}
+
+.ml4 {
+	margin-left: 48px;
 }
