@@ -3,11 +3,6 @@
     color: black;
     min-height: 100px;
 }
-@media screen and (max-width: 499px) {
-    .section.padded{
-        padding: 5rem 1rem;
-    }
-}
 
 /*NAV BAR*/
 .nav{
@@ -119,9 +114,44 @@
 }
 
 /*COMMON*/
+body{
+    font-family: 'Geomanist', sans-serif;
+}
+p{
+    font-family: 'Merriweather', serif;
+}
 .inline-block{
     display: inline-block;
 }
 .right{
     text-align: right;
+}
+.offset-images img{
+    max-width: 100%;
+}
+.offset-left{
+    margin-right: 100px;
+}
+.offset-right{
+    margin-left: 100px;
+}
+.padded-top{
+    padding-top: 3vw;
+}
+.padded-bottom{
+    padding-bottom: 3vw;
+}
+.padded{
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+.button{
+    font-family: "Geomanist", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 2.8px;
+    background-color: #4990e2;
+}
+.no-gutter{
+    max-width: none;
 }

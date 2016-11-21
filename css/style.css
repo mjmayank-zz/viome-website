@@ -1,14 +1,10 @@
 body{
-	font-family: 'Geomanist', sans-serif;
 	color: white;
     font-weight: 300;
     background-image: url("../img/v-icon.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-.no-gutter{
-    max-width: none;
 }
 .content{
     padding: 11vw 5vw 5vw 5vw;
@@ -18,15 +14,18 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: 50% 100%;
-    font-family: 'Geomanist', sans-serif;
 }
 .headline{
-    font-family: 'Geomanist', sans-serif;
     font-weight: 500;
     font-size: 4rem;
     line-height: 1.05;
     margin-bottom: 20px;
     text-transform: uppercase;
+}
+@media screen and (max-width: 499px) {
+    .headline{
+        font-size: 2rem;
+    }
 }
 .sub-hero{
     padding: 4vw;
@@ -52,18 +51,16 @@ body{
 }
 .logo-overlap{
 		position: relative;
-    margin-bottom: -50px;
+        margin-bottom: -50px;
 		z-index: 3;
 }
 .img-text{
     padding: 10vw 10vw;
 }
 .img-text p{
-    font-family: 'Merriweather', serif;
     color: #9297a3;
 }
 p.kicker{
-    font-family: 'Merriweather', serif;
     color: #4a4a4a
 }
 .section div{
@@ -120,15 +117,6 @@ p.kicker{
     font-family: "Merriweather", serif;
     color: #9297a3;
 }
-.padded{
-    padding-top: 5vw;
-}
-.offset-left{
-    margin-left: -100px;
-}
-.offset-right{
-    margin-left: 100px;
-}
 .secure{
     text-transform: uppercase;
     font-size: 2rem;
@@ -138,13 +126,6 @@ p.kicker{
     color: #9297a3;
     font-family: 'Merriweather', serif;
     font-size: 1.25rem;
-}
-.button{
-    font-family: "Geomanist", sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    border-radius: 2.8px;
-    background-color: #4990e2;
 }
 .header{
     text-transform: uppercase;
