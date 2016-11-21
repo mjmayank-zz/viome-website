@@ -1,0 +1,54 @@
+p{
+    color: white;
+}
+.hero{
+    background-image: url('../img/tech/background.jpg');
+}
+.nav a{
+    color: black;
+}
+.tech{
+    background-image: radial-gradient(circle at 118% 115%, #5a94f4, #254477);
+    color: white;
+}
+.hero{
+    position: relative;
+}
+.hero .content{
+    padding-top: 10vw;
+}
+.hero .headline{
+    font-family: "Geomanist", sans-serif;
+}
+.our-tech p{
+    padding-top: 50px;
+}
+.separator{
+    background-color: white;
+    height: 3px;
+    width: 40px;
+    margin: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.the-science{
+    padding-top: 10vw;
+}
+.the-science .content{
+    padding: 40px;
+}
+.the-science .header{
+    padding-top: 40px;
+}
+.the-science .content{
+    border-right: 1px solid #CECECE;
+    border-left: 1px solid #CECECE;
+}
+.the-science .headline{
+    padding-bottom: 5vw;
+}
+.offset-images{
+    background-image: url("../img/tech/bitmap-copy.png");
+    padding-top: 15vw;
+    padding-bottom: 15vw;
+}

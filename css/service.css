@@ -1,0 +1,36 @@
+.nav a{
+    color: black;
+}
+.hero .content{
+    padding-top: 5vw;
+    padding-left: 3vw;
+}
+.hero .image{
+    padding: 0;
+}
+.sub-hero{
+    background-image: url("../img/service/image.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+.products .content{
+    padding: 30px;
+}
+.steps .header{
+    /*margin-bottom: none;*/
+}
+.separator{
+    background-color: black;
+    height: 3px;
+    width: 40px;
+    margin: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 499px) {
+    .step{
+        margin-bottom: 3vw;    
+    }
+}

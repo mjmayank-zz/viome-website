@@ -15,18 +15,6 @@ body{
 	background-attachment: fixed;
 	background-position: 50% 100%;
 }
-.headline{
-    font-weight: 500;
-    font-size: 4rem;
-    line-height: 1.05;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-}
-@media screen and (max-width: 499px) {
-    .headline{
-        font-size: 2rem;
-    }
-}
 .sub-hero{
     padding: 4vw;
     font-family: 'Merriweather', serif;
@@ -72,29 +60,19 @@ p.kicker{
 }
 .offer img{
     padding-bottom: 50px;
-}
-.what-we-offer{
-    font-size: 5rem;
-    text-transform: uppercase;
-    letter-spacing: 30px;
-    margin-left: -25px;
-    font-weight: 200;
+    border-bottom: 5px solid #dfdfdf;
 }
 .wellness-as{
     padding: 50px 20px;
     font-weight: 500;
     font-size: 1.25rem;
     text-transform: uppercase;
-    border-top: 5px solid #dfdfdf;
     color: #9297a3;
 }
 .offer-right{
     padding: 0px 10vw;
     font-family: 'Merriweather', serif;
     color: #9297a3;
-}
-.offer-right p{
-    line-height: 1.94;
 }
 .DARR{
     text-transform: uppercase;
@@ -105,33 +83,12 @@ p.kicker{
 .DARR-detail{
     padding: 5vw;
 }
-.section-name{
-    font-weight: 800;
-    font-size: 2rem;
-    padding-top: 20px;
-}
 .DARR-content{
     border-right: 1px solid #CECECE;
     border-left: 1px solid #CECECE;
     padding: 20px 50px;
     font-family: "Merriweather", serif;
     color: #9297a3;
-}
-.secure{
-    text-transform: uppercase;
-    font-size: 2rem;
-    color: #9297a3;
-}
-.sotu{
-    color: #9297a3;
-    font-family: 'Merriweather', serif;
-    font-size: 1.25rem;
-}
-.header{
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 20px;
-	font-size: 1.5rem;
 }
 .learn-more {
 	margin-top: 45px;

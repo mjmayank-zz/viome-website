@@ -1,6 +1,5 @@
 /*SECTION*/
 .section{
-    color: black;
     min-height: 100px;
 }
 
@@ -32,8 +31,6 @@
     text-decoration: none;
     color: white;
     display: block;
-    -webkit-transition: .3s color;
-    transition: .3s color;
 }
 .nav li:hover {
     background-color: transparent;
@@ -45,6 +42,7 @@
     background-color: #fff;
     color: #444;
     cursor: default;
+    text-decoration: line-through;
 }
 .nav .active:hover{
     border: 1px solid white;
@@ -70,11 +68,8 @@
 .nav .links {
     color: white;
 }
-.nav .links li:hover a {
-    color: white!important;
-}
 .nav li {
-    padding: 0 25px;
+    padding: 0 20px;
     border-bottom: none;
     height: 40px;
     line-height: 40px;
@@ -113,18 +108,45 @@
     color: #2B364F;
 }
 
-/*COMMON*/
+/*COMMON ELEMENTS*/
 body{
     font-family: 'Geomanist', sans-serif;
 }
 p{
     font-family: 'Merriweather', serif;
+    color: #9297a3;
+    line-height: 1.94;
+}
+div{
+    background-size: cover;
+    background-position: center;
+}
+.hero{
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 60vw;
+}
+.headline{
+    font-family: 'Geomanist Book', sans-serif;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 1.05;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 499px) {
+    .headline{
+        font-size: 2rem;
+    }
 }
 .inline-block{
     display: inline-block;
 }
 .right{
     text-align: right;
+}
+.left{
+    text-align: left;
 }
 .offset-images img{
     max-width: 100%;
@@ -146,12 +168,39 @@ p{
     padding-bottom: 3vw;
 }
 .button{
-    font-family: "Geomanist", sans-serif;
+    font-family: "Geomanist Medium", sans-serif;
     font-weight: 500;
+    letter-spacing: 0.8px;
     text-transform: uppercase;
     border-radius: 2.8px;
     background-color: #4990e2;
 }
 .no-gutter{
     max-width: none;
+}
+.header{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+/*COMMON SECTIONS*/
+.secure{
+    font-family: "Geomanist Book", sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #9297a3;
+}
+.sotu{
+    color: #9297a3;
+    font-family: 'Merriweather', serif;
+    font-size: 1.25rem;
+}
+.cutoff{
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    margin-left: -25px;
+    font-weight: 200;
 }
