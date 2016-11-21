@@ -1,5 +1,5 @@
 body{
-	color: white;
+	color: black;
     font-weight: 300;
     background-image: url("../img/v-icon.png");
     background-position: center;
@@ -10,6 +10,7 @@ body{
     padding: 11vw 5vw 5vw 5vw;
 }
 .hero{
+    color: white;
 	background-image: url('../img/hero.jpg');
 	background-size: cover;
 	background-attachment: fixed;

@@ -124,7 +124,7 @@ div{
 .hero{
     background-size: cover;
     background-attachment: fixed;
-    min-height: 60vw;
+    min-height: 30vw;
 }
 .headline{
     font-family: 'Geomanist Book', sans-serif;

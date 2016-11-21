@@ -11,14 +11,19 @@ p{
     background-image: radial-gradient(circle at 118% 115%, #5a94f4, #254477);
     color: white;
 }
-.hero{
-    position: relative;
-}
 .hero .content{
     padding-top: 10vw;
+    padding-bottom: 20vw;
 }
 .hero .headline{
     font-family: "Geomanist", sans-serif;
+}
+.hero .carrot{
+    padding-bottom: 30px;
+}
+.carrot img{
+    max-height: 50px;
+    width: auto;
 }
 .our-tech p{
     padding-top: 50px;
