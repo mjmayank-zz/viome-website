@@ -7,6 +7,11 @@ p{
 .nav a{
     color: black;
 }
+
+.footer .nav a {
+    color: white;
+}
+
 .tech{
     background-image: radial-gradient(circle at 118% 115%, #5a94f4, #254477);
     color: white;

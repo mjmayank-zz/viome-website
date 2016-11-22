@@ -159,6 +159,8 @@ p.kicker{
 .ml4 {
 	margin-left: 48px;
 }
+
+/* Media Query */ 
 @media screen and (max-width: 600px) {
     .ml4 {
         margin-left: 0px;

@@ -10,15 +10,9 @@
     padding: 0;
     min-height: 300px;
 }
-@media screen and (max-width: 1000px) {
-    .hero .image{
-        background-position: 0% 0%;
-        background-size: cover;
-        background-image: url('../img/service/macbook.jpg')
-    }
-    .hero .image img{
-        display: none;
-    }
+
+.footer .nav a {
+    color: white;
 }
 .sub-hero{
     background-image: url("../img/service/image.jpg");
@@ -50,6 +44,17 @@
         margin-bottom: 3vw;
     }
     .bg-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .hero .image{
+        background-position: 0% 0%;
+        background-size: cover;
+        background-image: url('../img/service/macbook.jpg')
+    }
+    .hero .image img{
         display: none;
     }
 }
