@@ -1,0 +1,1 @@
+<meta http-equiv="refresh" content="0;url=https://intense-oasis-26141.herokuapp.com/index.html">
