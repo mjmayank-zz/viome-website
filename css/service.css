@@ -24,6 +24,7 @@
     background-image: url("../img/service/image.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     padding-top: 10vw;
     padding-bottom: 10vw;
 }
