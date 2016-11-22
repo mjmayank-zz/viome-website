@@ -20,12 +20,17 @@
 }
 
 /* Mobile */
-@media screen and (max-width: 499px) {
+@media (min-width: 300px) and (max-width: 900px) {
     .img-text {
-        padding: 45px;
         font-size: 14px;
     }
+}
 
+@media (min-width: 300px) and (max-width: 600px) {
+    .img-text {
+        padding: 45px;
+    }
+    
     .bg-img {
         display: none;
     }
