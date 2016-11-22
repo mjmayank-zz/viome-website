@@ -21,6 +21,11 @@
 .hero .carrot img{
     max-width: 30px;
 }
+.team img{
+    max-width: 100%;
+    padding-top: .9375rem;
+    padding-bottom: .9375rem;
+}
 p.subheader{
     color: black;
     margin-bottom: 2vw;
