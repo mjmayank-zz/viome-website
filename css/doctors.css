@@ -1,0 +1,20 @@
+.logo {
+    border-right: 2px solid black;
+}
+
+.logo > img {
+    width: 402px;
+    height: 54px;
+}
+
+.tagline {
+    color: #333743;
+}
+
+.img-text {
+    position: relative;
+}
+.learn-more {
+    position: absolute;
+    bottom: 0;
+}
