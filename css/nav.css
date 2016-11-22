@@ -132,6 +132,9 @@ div{
     background-attachment: fixed;
     min-height: 30vw;
 }
+.hero .row{
+    max-width: none;
+}
 .headline{
     font-family: 'Geomanist Book', sans-serif;
     font-weight: 500;

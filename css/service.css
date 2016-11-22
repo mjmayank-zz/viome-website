@@ -4,9 +4,21 @@
 .hero .content{
     padding-top: 5vw;
     padding-left: 3vw;
+    padding-bottom: 7vw;
 }
 .hero .image{
     padding: 0;
+    min-height: 300px;
+}
+@media screen and (max-width: 1000px) {
+    .hero .image{
+        background-position: 0% 0%;
+        background-size: cover;
+        background-image: url('../img/service/macbook.jpg')
+    }
+    .hero .image img{
+        display: none;
+    }
 }
 .sub-hero{
     background-image: url("../img/service/image.jpg");
@@ -17,6 +29,9 @@
 }
 .products .content{
     padding: 30px;
+}
+.products .row{
+    padding-bottom: 40px;
 }
 .steps .header{
     /*margin-bottom: none;*/

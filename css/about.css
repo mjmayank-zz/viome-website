@@ -12,14 +12,14 @@
         font-size: 2rem;
     }
 }
-.hero .row{
-    max-width: none;
+.hero .content{
     margin-left: 3vw;
     margin-right: 3vw;
-}
-.hero .content{
     padding: 15vw 4vw 11vw 3vw;
     border: 3px solid white;
+}
+.hero .carrot img{
+    max-width: 30px;
 }
 p.subheader{
     color: black;
@@ -38,7 +38,7 @@ p.subheader{
     font-family: "Geomanist Book", sans-serif;
 }
 .the-viome-way{
-    background-image: url("../img/about/background.png");
+    background-image: url("../img/about/background.jpg");
     background-size: cover;
     background-position: center;
 }

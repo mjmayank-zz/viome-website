@@ -7,14 +7,64 @@ body{
     background-attachment: fixed;
 }
 .content{
-    padding: 7vw 3vw 5vw 5vw;
+    padding: 7vw 3vw 20vw 3vw;
+    max-width: none;
 }
 .hero{
     color: white;
 	background-image: url('../img/hero.jpg');
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment: initial;
 	background-position: 50% 100%;
+}
+[type=email], [type=email]:focus, [type=text], [type=text]:focus{
+    background-color: rgba(255, 255, 255, .3);
+    border: none;
+    color: white;
+    display: inline-block;
+    width: 200px;
+    padding-left: 15px;
+    font-size: 12px;
+}
+.email{
+    border-radius: 0px 4px 4px 0px;
+    margin-left: -5px;
+}
+.name{
+    border-radius: 4px 0px 0px 4px;
+}
+.signup-box{
+    margin-bottom: 10px;
+}
+.button{
+    margin: 0;
+}
+.subscribe-button{
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 499px) {
+    .signup-box{
+        display: none;
+    }
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: white; }
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: white; }
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: white; }
+
+input::placeholder,
+textarea::placeholder {
+  color: white; }
+
+[type=email]::placeholder, [type=email]::-webkit-input-placeholder {
+    color: white;
 }
 .hero .headline{
     font-family: "Geomanist", sans-serif;
@@ -26,19 +76,6 @@ body{
 }
 .why .image-block{
     min-height: 200px;
-}
-@media screen and (min-width: 500px) {
-    .signup-box{
-        display:inline-block;
-        margin-right:10px;
-        width:40%;
-    }
-}
-@media screen and (max-width: 499px) {
-    .signup-box{
-        display:block;
-        width:100%;
-    }
 }
 .carrot img{
     max-width: 50px;
