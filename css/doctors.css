@@ -18,3 +18,15 @@
     position: absolute;
     bottom: 0;
 }
+
+/* Mobile */
+@media screen and (max-width: 499px) {
+    .img-text {
+        padding: 45px;
+        font-size: 14px;
+    }
+
+    .bg-img {
+        display: none;
+    }
+}
