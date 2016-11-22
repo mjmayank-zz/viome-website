@@ -160,4 +160,8 @@ p.kicker{
     .DARR-detail .row{
         margin-top: 50px;
     }
+
+	.nav .button {
+		display: none;
+	}
 }
