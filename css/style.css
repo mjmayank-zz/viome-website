@@ -16,6 +16,9 @@ body{
 	background-attachment: fixed;
 	background-position: 50% 100%;
 }
+.hero .headline{
+    font-family: "Geomanist", sans-serif;
+}
 .sub-hero{
     padding: 4vw;
     font-family: 'Merriweather', serif;
