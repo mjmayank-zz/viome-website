@@ -47,6 +47,9 @@
 }
 @media screen and (max-width: 499px) {
     .step{
-        margin-bottom: 3vw;    
+        margin-bottom: 3vw;
+    }
+    .bg-img {
+        display: none;
     }
 }
