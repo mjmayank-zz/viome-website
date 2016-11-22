@@ -49,6 +49,11 @@ p{
     border-right: 1px solid #CECECE;
     border-left: 1px solid #CECECE;
 }
+@media screen and (max-width: 499px) {
+    .the-science .content{
+        border: none;
+    }
+}
 .the-science .headline{
     padding-bottom: 5vw;
 }

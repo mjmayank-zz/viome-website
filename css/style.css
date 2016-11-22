@@ -138,6 +138,12 @@ p.kicker{
     font-family: "Merriweather", serif;
     color: #9297a3;
 }
+@media screen and (max-width: 499px) {
+    .DARR-content{
+        border-right: none;
+        border-left: none;
+    }
+}
 .learn-more {
 	margin-top: 45px;
 }
