@@ -144,6 +144,9 @@ div{
     text-transform: uppercase;
 }
 @media screen and (max-width: 499px) {
+    .hero{
+        background-attachment: initial;
+    }
     .headline{
         font-size: 2rem;
     }
