@@ -74,12 +74,13 @@
     height: 40px;
     line-height: 40px;
     font-size: 1em;
-}
-.nav li {
     display: inline-block;
-    margin-right: -4px;
 }
-
+@media screen and (max-width: 1070px) {
+    .nav li{
+        padding: 0 10px;
+    }
+}
 .nav a.active {
     background-color: #fff;
     color: #444;
@@ -100,6 +101,11 @@
     color: white;
     padding: 5rem;
     margin-top: 5vw;
+}
+@media screen and (max-width: 1070px) {
+    .footer{
+        padding: 2rem;
+    }
 }
 .footer .nav{
     padding-top: 0;

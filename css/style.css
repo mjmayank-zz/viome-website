@@ -21,6 +21,9 @@ body{
     font-family: 'Merriweather', serif;
     color: #9297a3;
 }
+.why .image-block{
+    min-height: 200px;
+}
 @media screen and (min-width: 500px) {
     .signup-box{
         display:inline-block;
@@ -103,7 +106,14 @@ p.kicker{
 .flex {
 	display: flex;
 }
-
 .ml4 {
 	margin-left: 48px;
+}
+@media screen and (max-width: 499px) {
+    .ml4 {
+        margin-left: 0px;
+    }
+    .DARR-detail .row{
+        margin-top: 50px;
+    }
 }

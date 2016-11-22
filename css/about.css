@@ -4,6 +4,9 @@
     color: white;
     padding-bottom: 3vw;
 }
+.hero p{
+    color: white;
+}
 @media screen and (max-width: 499px) {
     .headline{
         font-size: 2rem;
